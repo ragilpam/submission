@@ -43,7 +43,7 @@ def load_data():
 
 
 # SIDEBAR
-st.sidebar.image("logo.png", use_container_width=True)
+st.sidebar.image("https://raw.githubusercontent.com/ragilpam/submission/main/dashboard/logo.png", use_container_width=True)
 st.sidebar.title("🚲 Bike Sharing Dashboard 🚲")
 menu = st.sidebar.radio("Pilih Tampilan:", [
     "Informasi Umum", 
@@ -192,4 +192,5 @@ elif menu == "Informasi Jam Penyewaan Tertinggi":
     - Hal ini menunjukkan puncak aktivitas pengguna sepeda, biasanya bertepatan dengan jam **pulang kerja, rekreasi atau waktu santai para pengguna**.
 
     """)
+
 
